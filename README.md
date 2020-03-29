@@ -1,4 +1,4 @@
-# APS1 - Board music model
+# APS1 - Board musician module
 Students: Caio Fauza e Pedro Paulo Telho<br/>
 
 ## Abstract:
@@ -12,6 +12,7 @@ The project consists in create a musician module that works playing three differ
 </ul>
 
 ## Connections:
+<p>OLED: **EXT1**</p><br/>
 <p>Pins:</p>
 <ul>
   <li>PA4: Buzzer</li>
@@ -21,3 +22,4 @@ The project consists in create a musician module that works playing three differ
   <li>PC8: Board led </li>
 </ul>
 
+## Software structures:

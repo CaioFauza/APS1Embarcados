@@ -99,7 +99,7 @@
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
 
-int music_1[] = {
+const int music_1[] = {
 	NOTE_E4, NOTE_G4, NOTE_A4, NOTE_A4, 0,
 	NOTE_A4, NOTE_B4, NOTE_C5, NOTE_C5, 0,
 	NOTE_C5, NOTE_D5, NOTE_B4, NOTE_B4, 0,
@@ -152,7 +152,7 @@ int music_1[] = {
 };
 
 
-int duration_1[] = {
+const int duration_1[] = {
 	125, 125, 250, 125, 125,
 	125, 125, 250, 125, 125,
 	125, 125, 250, 125, 125,
@@ -206,7 +206,7 @@ int duration_1[] = {
 
 //music_1 credits: https://github.com/xitangg/-Pirates-of-the-Caribbean-Theme-Song/blob/master/Pirates_of_the_Caribbean_-_Theme_Song.ino
 
-int music_2[] = {
+const int music_2[] = {
 	NOTE_E7, NOTE_E7, 0, NOTE_E7,
 	0, NOTE_C7, NOTE_E7, 0,
 	NOTE_G7, 0, 0,  0,
@@ -233,7 +233,7 @@ int music_2[] = {
 	NOTE_D7, NOTE_B6, 0, 0
 };
 
-int duration_2[] = {
+const int duration_2[] = {
 	12, 12, 12, 12,
 	12, 12, 12, 12,
 	12, 12, 12, 12,
@@ -262,7 +262,7 @@ int duration_2[] = {
 
 //music_2 credits: https://www.princetronics.com/supermariothemesong/
 
-int music_3[] = {
+const int music_3[] = {
 	NOTE_C4, NOTE_C5, NOTE_A3, NOTE_A4,
 	NOTE_AS3, NOTE_AS4, 0,
 	0,
@@ -284,7 +284,7 @@ int music_3[] = {
 	0, 0, 0
 };
 
-int duration_3[] = {
+const int duration_3[] = {
 	12, 12, 12, 12,
 	12, 12, 6,
 	3,

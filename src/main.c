@@ -145,7 +145,7 @@ int main(void){
 			if(music_selected == 2){
 				sprintf(buffer, "%8s", "Under");
 				gfx_mono_draw_string(buffer, 50,16, &sysfont);
-				play_music(underworld_music, 6);
+				play_music(underworld_music, 2.7);
 			}
 		}
 		if(previous_music){

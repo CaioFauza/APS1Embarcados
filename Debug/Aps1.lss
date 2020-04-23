@@ -3474,7 +3474,7 @@ int main(void){
 			if(music_selected == 2){
 				sprintf(buffer, "%8s", "Under");
 				gfx_mono_draw_string(buffer, 50,16, &sysfont);
-				play_music(underworld_music, 6);
+				play_music(underworld_music, 2.7);
   4014fc:	f8df a144 	ldr.w	sl, [pc, #324]	; 401644 <main+0x158>
   401500:	f10a 0310 	add.w	r3, sl, #16
   401504:	f8cd 3f9c 	str.w	r3, [sp, #3996]	; 0xf9c
@@ -3589,8 +3589,8 @@ int main(void){
   4015cc:	f50d 607a 	add.w	r0, sp, #4000	; 0xfa0
   4015d0:	f8df 8074 	ldr.w	r8, [pc, #116]	; 401648 <main+0x15c>
   4015d4:	47c0      	blx	r8
-				play_music(underworld_music, 6);
-  4015d6:	2306      	movs	r3, #6
+				play_music(underworld_music, 2.7);
+  4015d6:	2302      	movs	r3, #2
   4015d8:	f8cd 3f90 	str.w	r3, [sp, #3984]	; 0xf90
   4015dc:	f44f 6279 	mov.w	r2, #3984	; 0xf90
   4015e0:	f8dd 1f9c 	ldr.w	r1, [sp, #3996]	; 0xf9c

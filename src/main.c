@@ -123,6 +123,11 @@ void init(void){
 	}	
 }
 
+
+void draw_music_title(char* music) {
+	gfx_mono_draw_string(music, 50,16, &sysfont);
+}
+
 int main(void){
 	init();
 	int music_selected = 0;
@@ -132,19 +137,19 @@ int main(void){
 			play = 0;
 			if(music_selected == 0){
 				sprintf(buffer, "%8s", "Mario");
-				gfx_mono_draw_string(buffer, 50,16, &sysfont);
+				draw_music_title(buffer);
 				play_music(mario_music, 1);
 				
 			}
 			if(music_selected == 1){
 				sprintf(buffer, "%8s", "Piratas");
-				gfx_mono_draw_string(buffer, 50,16, &sysfont);
+				draw_music_title(buffer);
 				play_music(pirate_music, 4.5);
 				
 			}
 			if(music_selected == 2){
 				sprintf(buffer, "%8s", "Under");
-				gfx_mono_draw_string(buffer, 50,16, &sysfont);
+				draw_music_title(buffer);
 				play_music(underworld_music, 2.7);
 			}
 		}

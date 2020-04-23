@@ -6109,7 +6109,7 @@ Discarded input sections
  .bss.cpu_irq_prev_interrupt_state
                 0x00000000        0x1 src/main.o
  .debug_macro   0x00000000      0x8ce src/main.o
- .debug_macro   0x00000000       0xca src/main.o
+ .debug_macro   0x00000000       0xdc src/main.o
  .debug_macro   0x00000000      0x16d src/main.o
  .debug_macro   0x00000000      0x64b src/main.o
  .debug_macro   0x00000000       0x76 src/main.o
@@ -7425,7 +7425,7 @@ OUTPUT(Aps1.elf elf32-littlearm)
  .debug_ranges  0x00000830       0x50 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .debug_ranges  0x00000880       0x38 src/main.o
 
-.debug_macro    0x00000000    0x21482
+.debug_macro    0x00000000    0x21494
  .debug_macro   0x00000000      0x6d9 src/ASF/sam/drivers/spi/spi.o
  .debug_macro   0x000006d9      0x8ce src/ASF/sam/drivers/spi/spi.o
  .debug_macro   0x00000fa7      0x16d src/ASF/sam/drivers/spi/spi.o
@@ -7602,33 +7602,33 @@ OUTPUT(Aps1.elf elf32-littlearm)
  .debug_macro   0x0001b8fe      0x69c src/oled/sysfont.o
  .debug_macro   0x0001bf9a       0x3a src/oled/sysfont.o
  .debug_macro   0x0001bfd4      0x77c src/play.o
- .debug_macro   0x0001c750       0xca src/play.o
- .debug_macro   0x0001c81a      0x665 src/ASF/common/services/delay/sam/cycle_counter.o
- .debug_macro   0x0001ce7f       0x22 src/ASF/common/services/delay/sam/cycle_counter.o
- .debug_macro   0x0001cea1      0x6d1 src/ASF/common/services/clock/same70/sysclk.o
- .debug_macro   0x0001d572      0x2c0 src/ASF/common/services/clock/same70/sysclk.o
- .debug_macro   0x0001d832      0x655 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
- .debug_macro   0x0001de87      0x70b src/ASF/sam/boards/same70_xplained/init.o
- .debug_macro   0x0001e592       0x82 src/ASF/sam/boards/same70_xplained/init.o
- .debug_macro   0x0001e614      0x66b src/ASF/sam/drivers/pio/pio.o
- .debug_macro   0x0001ec7f       0x8e src/ASF/sam/drivers/pio/pio.o
- .debug_macro   0x0001ed0d      0x676 src/ASF/sam/drivers/pio/pio_handler.o
- .debug_macro   0x0001f383      0x66b src/ASF/sam/drivers/pmc/pmc.o
- .debug_macro   0x0001f9ee       0x6a src/ASF/sam/drivers/pmc/pmc.o
- .debug_macro   0x0001fa58      0x664 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
- .debug_macro   0x000200bc       0x10 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
- .debug_macro   0x000200cc      0x455 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_macro   0x00020521      0x1d6 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x000206f7       0x97 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x0002078e       0xf6 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x00020884       0x4c src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x000208d0       0x16 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x000208e6       0x10 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x000208f6       0x10 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x00020906       0x35 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x0002093b      0x122 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_macro   0x00020a5d      0x805 src/main.o
- .debug_macro   0x00021262      0x220 src/main.o
+ .debug_macro   0x0001c750       0xdc src/play.o
+ .debug_macro   0x0001c82c      0x665 src/ASF/common/services/delay/sam/cycle_counter.o
+ .debug_macro   0x0001ce91       0x22 src/ASF/common/services/delay/sam/cycle_counter.o
+ .debug_macro   0x0001ceb3      0x6d1 src/ASF/common/services/clock/same70/sysclk.o
+ .debug_macro   0x0001d584      0x2c0 src/ASF/common/services/clock/same70/sysclk.o
+ .debug_macro   0x0001d844      0x655 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
+ .debug_macro   0x0001de99      0x70b src/ASF/sam/boards/same70_xplained/init.o
+ .debug_macro   0x0001e5a4       0x82 src/ASF/sam/boards/same70_xplained/init.o
+ .debug_macro   0x0001e626      0x66b src/ASF/sam/drivers/pio/pio.o
+ .debug_macro   0x0001ec91       0x8e src/ASF/sam/drivers/pio/pio.o
+ .debug_macro   0x0001ed1f      0x676 src/ASF/sam/drivers/pio/pio_handler.o
+ .debug_macro   0x0001f395      0x66b src/ASF/sam/drivers/pmc/pmc.o
+ .debug_macro   0x0001fa00       0x6a src/ASF/sam/drivers/pmc/pmc.o
+ .debug_macro   0x0001fa6a      0x664 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
+ .debug_macro   0x000200ce       0x10 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
+ .debug_macro   0x000200de      0x455 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
+ .debug_macro   0x00020533      0x1d6 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x00020709       0x97 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x000207a0       0xf6 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x00020896       0x4c src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x000208e2       0x16 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x000208f8       0x10 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x00020908       0x10 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x00020918       0x35 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x0002094d      0x122 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_macro   0x00020a6f      0x805 src/main.o
+ .debug_macro   0x00021274      0x220 src/main.o
 
 .debug_line     0x00000000     0xe5a2
  .debug_line    0x00000000      0xc41 src/ASF/sam/drivers/spi/spi.o
@@ -7651,7 +7651,7 @@ OUTPUT(Aps1.elf elf32-littlearm)
  .debug_line    0x0000d2fd      0x40b src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .debug_line    0x0000d708      0xe9a src/main.o
 
-.debug_str      0x00000000    0x90533
+.debug_str      0x00000000    0x90563
  .debug_str     0x00000000    0x85e51 src/ASF/sam/drivers/spi/spi.o
                               0x8651e (size before relaxing)
  .debug_str     0x00085e51     0x2ac3 src/oled/gfx_mono_framebuffer.o
@@ -7666,30 +7666,30 @@ OUTPUT(Aps1.elf elf32-littlearm)
                               0x88903 (size before relaxing)
  .debug_str     0x00089504     0x3ee1 src/oled/sysfont.o
                               0x86150 (size before relaxing)
- .debug_str     0x0008d3e5      0x33b src/play.o
-                              0x880d1 (size before relaxing)
- .debug_str     0x0008d720       0x35 src/ASF/common/services/delay/sam/cycle_counter.o
+ .debug_str     0x0008d3e5      0x36b src/play.o
+                              0x88101 (size before relaxing)
+ .debug_str     0x0008d750       0x35 src/ASF/common/services/delay/sam/cycle_counter.o
                               0x82084 (size before relaxing)
- .debug_str     0x0008d755      0x3f1 src/ASF/common/services/clock/same70/sysclk.o
+ .debug_str     0x0008d785      0x3f1 src/ASF/common/services/clock/same70/sysclk.o
                               0x865a2 (size before relaxing)
- .debug_str     0x0008db46       0x94 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
+ .debug_str     0x0008db76       0x94 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
                               0x81f54 (size before relaxing)
- .debug_str     0x0008dbda      0x4f4 src/ASF/sam/boards/same70_xplained/init.o
+ .debug_str     0x0008dc0a      0x4f4 src/ASF/sam/boards/same70_xplained/init.o
                               0x87092 (size before relaxing)
- .debug_str     0x0008e0ce      0x569 src/ASF/sam/drivers/pio/pio.o
+ .debug_str     0x0008e0fe      0x569 src/ASF/sam/drivers/pio/pio.o
                               0x82aaa (size before relaxing)
- .debug_str     0x0008e637      0x437 src/ASF/sam/drivers/pio/pio_handler.o
+ .debug_str     0x0008e667      0x437 src/ASF/sam/drivers/pio/pio_handler.o
                               0x82bcc (size before relaxing)
- .debug_str     0x0008ea6e      0x699 src/ASF/sam/drivers/pmc/pmc.o
+ .debug_str     0x0008ea9e      0x699 src/ASF/sam/drivers/pmc/pmc.o
                               0x82c0e (size before relaxing)
- .debug_str     0x0008f107      0x64c src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
+ .debug_str     0x0008f137      0x64c src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
                               0x82721 (size before relaxing)
- .debug_str     0x0008f753      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
+ .debug_str     0x0008f783      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
                               0x7282d (size before relaxing)
- .debug_str     0x0008f88a      0x779 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_str     0x0008f8ba      0x779 src/ASF/sam/utils/syscalls/gcc/syscalls.o
                                0x745e (size before relaxing)
- .debug_str     0x00090003      0x530 src/main.o
-                              0x8d9b9 (size before relaxing)
+ .debug_str     0x00090033      0x530 src/main.o
+                              0x8d9e9 (size before relaxing)
 
 .debug_frame    0x00000000     0x1e2c
  .debug_frame   0x00000000      0x140 src/ASF/sam/drivers/spi/spi.o

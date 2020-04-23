@@ -29,13 +29,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  12 .debug_ranges 000008b8  00000000  00000000  00041293  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_macro  00021482  00000000  00000000  00041b4b  2**0
+ 13 .debug_macro  00021494  00000000  00000000  00041b4b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_line   0000e5a2  00000000  00000000  00062fcd  2**0
+ 14 .debug_line   0000e5a2  00000000  00000000  00062fdf  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_str    00090533  00000000  00000000  0007156f  2**0
+ 15 .debug_str    00090563  00000000  00000000  00071581  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_frame  00001e2c  00000000  00000000  00101aa4  2**2
+ 16 .debug_frame  00001e2c  00000000  00000000  00101ae4  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -3373,7 +3373,7 @@ void init(void){
   401416:	f502 61fa 	add.w	r1, r2, #2000	; 0x7d0
   40141a:	f505 754a 	add.w	r5, r5, #808	; 0x328
 	NVIC_EnableIRQ(BUTB_PIO_ID);
-	NVIC_SetPriority(BUTB_PIO_ID, 1);
+	NVIC_SetPriority(BUTB_PIO_ID, BUTB_PRIORITY);
 	
 	
 	for(int i = 0; i < sizeof(music_1)/sizeof(int); i++){

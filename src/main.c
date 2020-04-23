@@ -98,13 +98,13 @@ void init(void){
 	pio_enable_interrupt(BUTB_PIO, BUTB_PIO_IDX_MASK);
 
 	NVIC_EnableIRQ(BUT1_PIO_ID);
-	NVIC_SetPriority(BUT1_PIO_ID, 1);
+	NVIC_SetPriority(BUT1_PIO_ID, BUT1_PRIORITY);
 	
 	NVIC_EnableIRQ(BUT2_PIO_ID);
-	NVIC_SetPriority(BUT2_PIO_ID, 1);
+	NVIC_SetPriority(BUT2_PIO_ID, BUT2_PRIORITY);
 	
 	NVIC_EnableIRQ(BUTB_PIO_ID);
-	NVIC_SetPriority(BUTB_PIO_ID, 1);
+	NVIC_SetPriority(BUTB_PIO_ID, BUTB_PRIORITY);
 	
 	
 	for(int i = 0; i < sizeof(music_1)/sizeof(int); i++){
